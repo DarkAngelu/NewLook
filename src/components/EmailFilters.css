@@ -1,0 +1,19 @@
+.email-filters {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.email-filters button {
+	background-color: #f1f3f4;
+	border: 1px solid #e1e4ea;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.email-filters button.active {
+	background-color: #fff7ff;
+	color: #E54065;
+}

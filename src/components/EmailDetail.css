@@ -1,0 +1,46 @@
+.email-detail {
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+
+.email-detail::-webkit-scrollbar {
+    display: none;
+}
+
+.email-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.email-header h2 {
+	margin: 0;
+}
+
+.favorite-button {
+	background-color: #E54065;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.favorite-button.favorited {
+	background-color: #fbbc05;
+}
+
+.email-info {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #5f6368;
+	margin-bottom: 20px;
+}
+
+.email-body {
+	font-size: 14px;
+	line-height: 1.6;
+}
