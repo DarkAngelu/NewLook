@@ -46,6 +46,7 @@ function App() {
 			setEmails(updatedEmails);
 			updateLocalStorage(email.id, { read: true });
 		}
+        setFilter("read");
 	};
 
 	const handleFavorite = (id: string) => {
