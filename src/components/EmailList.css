@@ -4,6 +4,7 @@
 
 .email-item {
 	border: 1px solid #cfd2dc;
+    background-color: #FFFFFF;
 	border-radius: 4px;
 	padding: 10px;
 	margin: 0px 0px 20px 0px;
@@ -13,7 +14,7 @@
 }
 
 .email-item.selected {
-    background-color: #F4F5F9 !important;
+    background-color: #FFFFFF !important;
 	border: 1.5px solid #E54065;
 }
 
