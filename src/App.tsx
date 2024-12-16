@@ -91,6 +91,7 @@ function App() {
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page);
         setSelectedEmail(null);
+        setFilter("all");
 	};
 
 	if (loading) {
