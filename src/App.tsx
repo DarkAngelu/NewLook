@@ -38,6 +38,10 @@ function App() {
 	}
 
 	const handleEmailSelect = (email: Email) => {
+        if (filter === "unread") {    
+            setFilter("read");
+        }
+
 		setSelectedEmail(email);
 		if (!email.read) {
 			const updatedEmails = emails.map((e) =>
@@ -46,7 +50,6 @@ function App() {
 			setEmails(updatedEmails);
 			updateLocalStorage(email.id, { read: true });
 		}
-        setFilter("read");
 	};
 
 	const handleFavorite = (id: string) => {
